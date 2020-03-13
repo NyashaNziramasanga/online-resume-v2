@@ -72,6 +72,7 @@ const Left = (props) => {
                 <a
                   className="company"
                   href="https://platformers.com.au/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   Platformers
@@ -114,6 +115,7 @@ const Left = (props) => {
                 <a
                   className="company"
                   href="https://www.carbar.com.au/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   Carbar Auto
@@ -151,6 +153,7 @@ const Left = (props) => {
               <a
                 className="project-title"
                 href="http://www.monashphotographyclub.com/"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 Monash Photography Club
