@@ -48,13 +48,21 @@ const Left = (props) => {
           <h4>Education</h4>
           <div className="content">
             <div className="university">
-              <a href="https://www.monash.edu/" target="_blank">
+              <a
+                href="https://www.monash.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Monash University
               </a>
             </div>
             <div className="duration">July 2014 &mdash; Dec 2017</div>
             <div className="college">
-              <a href="https://www.monash.edu/it" target="_blank">
+              <a
+                href="https://www.monash.edu/it"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Faculty of Information Technology (FIT)
               </a>
             </div>
@@ -169,6 +177,7 @@ const Left = (props) => {
         <a href="https://wakatime.com">
           <img
             className="chart"
+            alt="wakatime-chart"
             src="https://wakatime.com/share/@Nash/fc0ed910-2ab2-4790-aa68-06eac111b89e.png"
           />
         </a>

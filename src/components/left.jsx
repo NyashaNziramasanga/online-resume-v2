@@ -11,13 +11,25 @@ const Left = (props) => {
             <div className="subtext">{props.subtext}</div>
             <div className="jobStatus">{props.jobStatus}</div>
             <div className="social-links">
-              <a href={props.githubURL} target="_blank">
+              <a
+                href={props.githubURL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa fa-github"></i>
               </a>
-              <a href={props.linkedinURL} target="_blank">
+              <a
+                href={props.linkedinURL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa fa-linkedin"></i>
               </a>
-              <a href="mailto:nyashanziramasanga@ymail.com" target="_blank">
+              <a
+                href="mailto:nyashanziramasanga@ymail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa fa-envelope"></i>
               </a>
             </div>
