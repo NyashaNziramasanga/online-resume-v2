@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4df17650.chunk.css",
+    "main.js": "/static/js/main.bd8e70b8.chunk.js",
+    "main.js.map": "/static/js/main.bd8e70b8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e499132c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e499132c.js.map",
+    "static/js/2.9e9a2f8f.chunk.js": "/static/js/2.9e9a2f8f.chunk.js",
+    "static/js/2.9e9a2f8f.chunk.js.map": "/static/js/2.9e9a2f8f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d921aaec8ad55f60b69b5bb2d2931e7b.js": "/precache-manifest.d921aaec8ad55f60b69b5bb2d2931e7b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4df17650.chunk.css.map": "/static/css/main.4df17650.chunk.css.map",
+    "static/js/2.9e9a2f8f.chunk.js.LICENSE.txt": "/static/js/2.9e9a2f8f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/nyasha-headshot.644b0a20.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e499132c.js",
+    "static/js/2.9e9a2f8f.chunk.js",
+    "static/css/main.4df17650.chunk.css",
+    "static/js/main.bd8e70b8.chunk.js"
+  ]
+}

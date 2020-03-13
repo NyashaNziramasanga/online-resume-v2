@@ -14,7 +14,8 @@ $ npm start
 ### Deployment
 
 ```bash
-npm run build
+# Run build script for deployment
+$ npm run build
 ```
 
 ## Tech Used
