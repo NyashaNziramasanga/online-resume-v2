@@ -1,4 +1,6 @@
-# Online Resume
+# 📝 Online Resume 📝
+
+Digital version of my resume
 
 ## Usage
 
@@ -15,6 +17,7 @@ $ npm start
 npm run build
 ```
 
-## References
+## Tech Used
 
-Built with react
+- [React](https://reactjs.org/)
+- [Wakatime Chart](https://wakatime.com/)
