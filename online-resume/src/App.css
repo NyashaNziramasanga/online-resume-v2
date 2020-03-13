@@ -20,7 +20,7 @@ a {
 }
 
 .left .bg-img {
-  /* background: url('./img/nyasha-headshot.jpg') center center no-repeat; */
+  background: url('./files/nyasha-headshot.jpg') center center no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
