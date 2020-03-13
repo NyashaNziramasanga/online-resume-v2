@@ -162,9 +162,14 @@ const Left = (props) => {
             </div>
           </div>
         </div>
+
         <a href="https://wakatime.com">
-          <img src="https://wakatime.com/share/@Nash/fc0ed910-2ab2-4790-aa68-06eac111b89e.png" />
+          <img
+            className="chart"
+            src="https://wakatime.com/share/@Nash/fc0ed910-2ab2-4790-aa68-06eac111b89e.png"
+          />
         </a>
+
         <a
           className="resume"
           href={props.resumeURL}

@@ -81,6 +81,11 @@ a {
   margin-top: 50%;
 }
 
+.chart {
+  display: block;
+  margin: 1rem auto;
+}
+
 @media screen and (max-width: 1000px) {
   .left .info {
     margin-top: 300px;
