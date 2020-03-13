@@ -15,7 +15,10 @@ function App() {
           'https://www.linkedin.com/in/nyasha-nash-nziramasanga-446380116/'
         }
       />
-      <Right intro={''} resumeURL={''} />
+      <Right
+        intro={''}
+        resumeURL={'/files/resume-of-nyasha-nash-nziramasanga.pdf'}
+      />
     </div>
   );
 }

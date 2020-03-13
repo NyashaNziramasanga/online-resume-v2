@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Right = (props) => {
+const Left = (props) => {
   return (
     <div className="right">
       <div className="right-inner">
@@ -165,7 +165,11 @@ const Right = (props) => {
         <a href="https://wakatime.com">
           <img src="https://wakatime.com/share/@Nash/fc0ed910-2ab2-4790-aa68-06eac111b89e.png" />
         </a>
-        <a className="resume" href={props.resumeURL} target="_blank">
+        <a
+          className="resume"
+          href={props.resumeURL}
+          download="resume-of-nyasha-nash-nziramasanga.pdf"
+        >
           <div className="resume-link">PDF of my full resume</div>
         </a>
       </div>
@@ -173,4 +177,4 @@ const Right = (props) => {
   );
 };
 
-export default Right;
+export default Left;
