@@ -16,6 +16,10 @@ $ npm start
 ```bash
 # Run build script for deployment
 $ npm run build
+
+# Deploy to netlify if not setup
+$ npm install netlify-cli -g
+$ netlify deploy
 ```
 
 ## Tech Used
