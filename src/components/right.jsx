@@ -125,6 +125,21 @@ const Left = (props) => {
             />
 
             <Project
+              projectUrl={
+                'https://documenter.getpostman.com/view/9366343/SWTK3ZQF?version=latest'
+              }
+              projectName={'Dev Camper API'}
+              projectDescription={
+                'Backend node.js and express.js RESTful API for DevCamper application'
+              }
+              githubLink={
+                'https://github.com/NyashaNziramasanga/Dev-Camper-API'
+              }
+              webLink={
+                'https://documenter.getpostman.com/view/9366343/SWTK3ZQF?version=latest'
+              }
+            />
+            <Project
               projectUrl={'#'}
               projectName={'GitHub User Finder'}
               projectDescription={'React App to search Github user profiles'}
@@ -142,22 +157,6 @@ const Left = (props) => {
               }
               githubLink={null}
               webLink={'http://www.monashphotographyclub.com/'}
-            />
-
-            <Project
-              projectUrl={
-                'https://documenter.getpostman.com/view/9366343/SWTK3ZQF?version=latest'
-              }
-              projectName={'Dev Camper API'}
-              projectDescription={
-                'Backend node.js and express.js RESTful API for DevCamper application'
-              }
-              githubLink={
-                'https://github.com/NyashaNziramasanga/Dev-Camper-API'
-              }
-              webLink={
-                'https://documenter.getpostman.com/view/9366343/SWTK3ZQF?version=latest'
-              }
             />
           </div>
         </div>
