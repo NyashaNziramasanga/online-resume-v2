@@ -1,5 +1,6 @@
 import React from 'react';
 import Education from './right/education';
+import Experience from './right/experience';
 
 const Left = (props) => {
   return (
@@ -34,7 +35,7 @@ const Left = (props) => {
             </div>
             <div className="skill-category">
               <strong>Libraries &amp; Frameworks: &nbsp;</strong>
-              <span> Node.js, MongoDB, Express.js, React.js</span>
+              <span> React.js, Node.js, MongoDB, Express.js</span>
             </div>
             <div className="skill-category">
               <strong>Tools: &nbsp;</strong>
@@ -72,83 +73,41 @@ const Left = (props) => {
         <div className="experience">
           <h4>Experience</h4>
           <div className="content">
-            <div className="exp-item">
-              <div className="job">
-                <a
-                  className="company"
-                  href="https://platformers.com.au/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Platformers
-                </a>
-                <div className="duration">Feb 2019 &mdash; Feb 2020</div>
-              </div>
-              <div className="title">Junior Software Developer</div>
-              <ul className="description">
-                <p>
-                  As a Software Developer, at Platformers, I am a member of the
-                  Billow Software development team of 4 developers that managed
-                  and support multiple client databases primarily in the
-                  construction industry. Developing and implementing custom web
-                  applications solutions for the Upvise.js Framework.
-                </p>
-                <li>
-                  Research, design, and implementation of web applications using
-                  MERN Stack (Mongo DB, Express.js, React.js, Node.js)
-                </li>
-                <li>
-                  Working closely with clients and partners on multiple projects
-                  from development, deployment, and maintenance of databases
-                </li>
-                <li>
-                  Developing cloud strategies, architects and serverless cloud
-                  solutions on Microsoft Azure Cloud Platform
-                </li>
-                <li>
-                  Maintaining relationships with software vendors and partners
-                  on integrations
-                </li>
-                <li>Version control of the Upvise.js code base GitHub</li>
-                <li>
-                  Developing Web APIs and Integrations to Upvise Framework
-                </li>
-              </ul>
-            </div>
-            <div className="exp-item">
-              <div className="job">
-                <a
-                  className="company"
-                  href="https://www.carbar.com.au/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Carbar Auto
-                </a>
-                <div className="duration">Oct 2018 &mdash; Jan 2019</div>
-              </div>
-              <div className="title">Intern Web Developer</div>
-              <ul className="description">
-                <p>
-                  As a Web Developer at Carbar Auto, I was a member of the
-                  development team that constructed both customer-facing and
-                  administrative sites for managing the sales and subscriptions
-                  of Carbar vehicles.
-                </p>
-                <li>Built web applications using the Laravel PHP framework</li>
-                <li>Utilised HTML5, JavaScript frameworks, and CSS3</li>
-                <li>
-                  Developed and managed database using database technologies
-                  such as MySQL, DataGrip and Oracle
-                </li>
-                <li>
-                  Implemented CRUD (Create, Read, Update, Delete) functionality
-                  for admin use
-                </li>
-                <li>Project management through Jira and Confluence</li>
-                <li>API design and development for mobile app</li>
-              </ul>
-            </div>
+            <Experience
+              companyWebsite={'https://platformers.com.au/'}
+              companyName={'Platformers'}
+              duration={'Feb 2019 - Feb 2020'}
+              jobTitle={'Junior Software Developer'}
+              description={
+                'As a Software Developer, at Platformers, I am a member of the Billow Software development team of 4 developers that managed and support multiple client databases primarily in the construction industry. Developing and implementing custom web applications solutions for the Upvise.js Framework.'
+              }
+              tasks={[
+                'Research, design, and implementation of web applications using MERN Stack (Mongo DB, Express.js, React.js, Node.js)',
+                'Working closely with clients and partners on multiple projects from development, deployment, and maintenance of databases',
+                'Developing cloud strategies, architects and serverless cloud solutions on Microsoft Azure Cloud Platform',
+                ' Maintaining relationships with software vendors and partners on integrations',
+                'Version control of the Upvise.js code base GitHub',
+                'Developing Web APIs and Integrations to Upvise Framework'
+              ]}
+            />
+
+            <Experience
+              companyWebsite={'https://www.carbar.com.au/'}
+              companyName={'Carbar Auto'}
+              duration={'Oct 2018 - Jan 2019'}
+              jobTitle={'Intern Web Developer'}
+              description={
+                'As a Web Developer at Carbar Auto, I was a member of the development team that constructed both customer-facing and administrative sites for managing the sales and subscriptions of Carbar vehicles.'
+              }
+              tasks={[
+                'Built web applications using the Laravel PHP framework',
+                'Utilised HTML5, JavaScript frameworks, and CSS3',
+                'Developed and managed database using database technologies such as MySQL, DataGrip and Oracle',
+                'Implemented CRUD (Create, Read, Update, Delete) functionality for admin use',
+                'Project management through Jira and Confluence',
+                'API design and development for mobile app'
+              ]}
+            />
           </div>
         </div>
         <div className="projects">
