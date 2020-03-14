@@ -1,4 +1,5 @@
 import React from 'react';
+import Education from './right/education';
 
 const Left = (props) => {
   return (
@@ -47,29 +48,25 @@ const Left = (props) => {
         <div className="education">
           <h4>Education</h4>
           <div className="content">
-            <div className="university">
-              <a
-                href="https://www.monash.edu/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Monash University
-              </a>
-            </div>
-            <div className="duration">July 2014 &mdash; Dec 2017</div>
-            <div className="college">
-              <a
-                href="https://www.monash.edu/it"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Faculty of Information Technology (FIT)
-              </a>
-            </div>
-            <div className="major">
-              <strong>Degree:</strong> Bachelor’s Degree, Information Technology
-              and Systems
-            </div>
+            <Education
+              universityUrl={'https://www.flinders.edu.au/'}
+              university={'Flinders University'}
+              city={'Adelaide'}
+              duration={'Feb 2020 - Current'}
+              facultyUrl={'https://www.flinders.edu.au/study/science'}
+              faculty={'College of Science & Engineering'}
+              major={'Master of Science, Computer Science'}
+            />
+
+            <Education
+              universityUrl={'https://www.monash.edu/'}
+              university={'Monash University'}
+              city={'Melbourne'}
+              duration={'July 2014 - Dec 2017'}
+              facultyUrl={'https://www.monash.edu/it'}
+              faculty={'Faculty of Information Technology (FIT)'}
+              major={'Bachelor’s Degree, Information Technology and Systems'}
+            />
           </div>
         </div>
         <div className="experience">

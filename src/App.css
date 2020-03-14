@@ -264,6 +264,10 @@ i {
   margin-bottom: 30px;
 }
 
+.edu-item {
+  margin-bottom: 30px;
+}
+
 .right .experience .exp-item:last-of-type {
   margin-bottom: 0;
 }
@@ -273,7 +277,7 @@ i {
   font-weight: 700;
 }
 
-.right .experience .exp-item .duration {
+.duration {
   font-size: 13px;
   font-weight: 500;
   float: right;
