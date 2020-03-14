@@ -1,3 +1,14 @@
+html,
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Catamaran', sans-serif;
+  letter-spacing: 0.3px;
+}
+
 a {
   text-decoration: none;
 }
@@ -94,6 +105,15 @@ a {
 
 .left .info .name {
   font-weight: 500;
+}
+
+.social-icons {
+  color: #1d1c1c;
+  padding: 0.5rem;
+}
+
+i {
+  font-size: 1.5rem;
 }
 
 .left .info .social-links {
