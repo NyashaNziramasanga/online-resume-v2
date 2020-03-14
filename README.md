@@ -1,4 +1,4 @@
-# 📝 Online Resume 📝
+# 📝 Online Resume v2 📝
 
 Digital version of my resume
 
