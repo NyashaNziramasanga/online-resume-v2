@@ -1,6 +1,7 @@
 import React from 'react';
 import Education from './right/education';
 import Experience from './right/experience';
+import Project from './right/project';
 
 const Left = (props) => {
   return (
@@ -113,20 +114,15 @@ const Left = (props) => {
         <div className="projects">
           <h4>Projects</h4>
           <div className="content">
-            <div className="project-item">
-              <a
-                className="project-title"
-                href="http://www.monashphotographyclub.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Monash Photography Club
-              </a>
-              <p className="project-desc">
-                Wordpress website for a student ran photography club with over
-                100 members.
-              </p>
-            </div>
+            <Project
+              projectUrl={'http://www.monashphotographyclub.com/'}
+              projectName={'Monash Photography Club'}
+              projectDescription={
+                'Wordpress website for a student ran photography club with over 100 members.'
+              }
+              githubLink={null}
+              webLink={'http://www.monashphotographyclub.com/'}
+            />
           </div>
         </div>
 
