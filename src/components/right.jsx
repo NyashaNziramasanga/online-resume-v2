@@ -115,13 +115,49 @@ const Left = (props) => {
           <h4>Projects</h4>
           <div className="content">
             <Project
+              projectUrl={'https://platformhub.com.au/'}
+              projectName={'Platform Hub'}
+              projectDescription={
+                'Universal hub for managing users from multiple cloud platforms'
+              }
+              githubLink={'https://github.com/Billow-Software/Platform-Hub'}
+              webLink={'https://platformhub.com.au/'}
+            />
+
+            <Project
+              projectUrl={'#'}
+              projectName={'GitHub User Finder'}
+              projectDescription={'React App to search Github user profiles'}
+              githubLink={
+                'https://github.com/NyashaNziramasanga/GitHub-User-Finder'
+              }
+              webLink={null}
+            />
+
+            <Project
               projectUrl={'http://www.monashphotographyclub.com/'}
               projectName={'Monash Photography Club'}
               projectDescription={
-                'Wordpress website for a student ran photography club with over 100 members.'
+                'Wordpress website for a student ran photography club with over 100+ members.'
               }
               githubLink={null}
               webLink={'http://www.monashphotographyclub.com/'}
+            />
+
+            <Project
+              projectUrl={
+                'https://documenter.getpostman.com/view/9366343/SWTK3ZQF?version=latest'
+              }
+              projectName={'Dev Camper API'}
+              projectDescription={
+                'Backend node.js and express.js RESTful API for DevCamper application'
+              }
+              githubLink={
+                'https://github.com/NyashaNziramasanga/Dev-Camper-API'
+              }
+              webLink={
+                'https://documenter.getpostman.com/view/9366343/SWTK3ZQF?version=latest'
+              }
             />
           </div>
         </div>

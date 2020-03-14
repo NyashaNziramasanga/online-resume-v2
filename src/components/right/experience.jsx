@@ -10,7 +10,7 @@ const Experience = (props) => {
       <div className="job">
         <a
           className="company"
-          href={props.companyUrl}
+          href={props.companyWebsite}
           rel="noopener noreferrer"
           target="_blank"
         >
