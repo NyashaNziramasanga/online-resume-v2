@@ -2,7 +2,7 @@
 
 Digital version of my resume
 
-## Usage
+## Getting Started
 
 ```bash
 # Start server
@@ -11,7 +11,7 @@ $ npm i
 $ npm start
 ```
 
-### Deployment
+## Deployment
 
 ```bash
 # Run build script for deployment
@@ -22,7 +22,8 @@ $ npm install netlify-cli -g
 $ netlify deploy
 ```
 
-## Tech Used
+## Built with
 
-- [React](https://reactjs.org/)
+- [React.js](https://reactjs.org/)
 - [Wakatime Chart](https://wakatime.com/)
+- [netlify](https://www.netlify.com/)
