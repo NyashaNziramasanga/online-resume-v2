@@ -16,7 +16,7 @@ const Left = (props) => {
               Express.js, React.js and Node.js).{' '}
             </p>
             <p className="intro-p">
-              I enjoy being developing and maintaining fullstack software
+              I enjoy developing and maintaining fullstack software
               applications, and feel right at home as a Software Developer.
               I&#39;m experienced in developing and designing products for the
               web.
