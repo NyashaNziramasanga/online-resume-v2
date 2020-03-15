@@ -1,6 +1,6 @@
 # 📝 Online Resume v2 📝
 
-Digital version of my resume
+Digital version of my resume on my [site](https://nyashanziramasanga.com/)
 
 ## Getting Started
 
