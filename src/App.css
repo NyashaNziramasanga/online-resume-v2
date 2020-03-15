@@ -99,8 +99,7 @@ a:hover {
   bottom: 0;
   color: #fff;
   width: 90%;
-  margin: 0 auto;
-  margin-top: 50%;
+  margin: 80% auto 0;
 }
 
 .chart {
