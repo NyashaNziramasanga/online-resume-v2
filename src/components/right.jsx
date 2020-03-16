@@ -32,7 +32,7 @@ const Left = (props) => {
           <div className="content">
             <div className="skill-category">
               <strong>Languages: &nbsp;</strong>
-              <span>JavaScript (ES6), HTML5, CSS3, Java</span>
+              <span>JavaScript (ES6), Java, HTML5, CSS3</span>
             </div>
             <div className="skill-category">
               <strong>Libraries &amp; Frameworks: &nbsp;</strong>

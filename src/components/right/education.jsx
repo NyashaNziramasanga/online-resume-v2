@@ -7,8 +7,8 @@ const Education = (props) => {
         <a href={props.universityUrl} target="_blank" rel="noopener noreferrer">
           {props.university} , {props.city}
         </a>
+        <div className="duration">{props.duration}</div>
       </div>
-      <div className="duration">{props.duration}</div>
       <div className="college">
         <a href={props.facultyUrl} target="_blank" rel="noopener noreferrer">
           {props.faculty}
