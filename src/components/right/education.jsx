@@ -5,7 +5,7 @@ const Education = (props) => {
     <div className="edu-item">
       <div className="university">
         <a href={props.universityUrl} target="_blank" rel="noopener noreferrer">
-          {props.university} , {props.city}
+          {props.university}, {props.city}
         </a>
         <div className="duration">{props.duration}</div>
       </div>
