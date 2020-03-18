@@ -64,7 +64,7 @@ const Left = (props) => {
               universityUrl={'https://www.monash.edu/'}
               university={'Monash University'}
               city={'Melbourne'}
-              duration={'July 2014 - Dec 2017'}
+              duration={'July 2014 - Feb 2018'}
               facultyUrl={'https://www.monash.edu/it'}
               faculty={'Faculty of Information Technology (FIT)'}
               major={'Bachelor’s Degree, Information Technology and Systems'}
