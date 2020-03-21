@@ -77,7 +77,7 @@ const Left = (props) => {
             <Experience
               companyWebsite={'https://platformers.com.au/'}
               companyName={'Platformers'}
-              duration={'Feb 2019 - Feb 2020'}
+              duration={'Feb 2019 - Current'}
               jobTitle={'Junior Software Developer'}
               description={
                 'As a Software Developer, at Platformers, I am a member of the Billow Software development team of 4 developers that managed and support multiple client databases primarily in the construction industry. Developing and implementing custom web applications solutions for the Upvise.js Framework.'
