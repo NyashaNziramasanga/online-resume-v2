@@ -125,6 +125,16 @@ const Left = (props) => {
             />
 
             <Project
+              projectUrl={'#'}
+              projectName={'GitHub User Finder'}
+              projectDescription={'React App to search Github user profiles'}
+              githubLink={
+                'https://github.com/NyashaNziramasanga/GitHub-User-Finder'
+              }
+              webLink={'https://github-user-finder-web.netlify.com/'}
+            />
+
+            <Project
               projectUrl={
                 'https://documenter.getpostman.com/view/9366343/SWTK3ZQF?version=latest'
               }
@@ -138,15 +148,6 @@ const Left = (props) => {
               webLink={
                 'https://documenter.getpostman.com/view/9366343/SWTK3ZQF?version=latest'
               }
-            />
-            <Project
-              projectUrl={'#'}
-              projectName={'GitHub User Finder'}
-              projectDescription={'React App to search Github user profiles'}
-              githubLink={
-                'https://github.com/NyashaNziramasanga/GitHub-User-Finder'
-              }
-              webLink={'https://github-user-finder-web.netlify.com/'}
             />
 
             <Project
