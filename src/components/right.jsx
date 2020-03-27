@@ -146,7 +146,7 @@ const Left = (props) => {
               githubLink={
                 'https://github.com/NyashaNziramasanga/GitHub-User-Finder'
               }
-              webLink={null}
+              webLink={'https://github-user-finder-web.netlify.com/'}
             />
 
             <Project
