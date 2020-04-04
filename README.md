@@ -8,7 +8,6 @@ Digital version of my resume on my [site](https://nyashanziramasanga.com/)
 
 ```bash
 # Start server
-$ cd online-resume
 $ npm i
 $ npm start
 ```
@@ -28,4 +27,4 @@ $ netlify deploy
 
 - [React.js](https://reactjs.org/)
 - [Wakatime Chart](https://wakatime.com/)
-- [netlify](https://www.netlify.com/)
+- [Netlify](https://www.netlify.com/)

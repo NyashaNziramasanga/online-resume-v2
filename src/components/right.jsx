@@ -77,7 +77,7 @@ const Left = (props) => {
             <Experience
               companyWebsite={'https://platformers.com.au/'}
               companyName={'Platformers'}
-              duration={'Feb 2019 - Current'}
+              duration={'Feb 2019 - Feb 2020'}
               jobTitle={'Junior Software Developer'}
               description={
                 'As a Software Developer, at Platformers, I am a member of the Billow Software development team of 4 developers that managed and support multiple client databases primarily in the construction industry. Developing and implementing custom web applications solutions for the Upvise.js Framework.'
@@ -88,7 +88,7 @@ const Left = (props) => {
                 'Developing cloud strategies, architects and serverless cloud solutions on Microsoft Azure Cloud Platform',
                 ' Maintaining relationships with software vendors and partners on integrations',
                 'Version control of the Upvise.js code base GitHub',
-                'Developing Web APIs and Integrations to Upvise Framework'
+                'Developing Web APIs and Integrations to Upvise Framework',
               ]}
             />
 
@@ -106,7 +106,7 @@ const Left = (props) => {
                 'Developed and managed database using database technologies such as MySQL, DataGrip and Oracle',
                 'Implemented CRUD (Create, Read, Update, Delete) functionality for admin use',
                 'Project management through Jira and Confluence',
-                'API design and development for mobile app'
+                'API design and development for mobile app',
               ]}
             />
           </div>
