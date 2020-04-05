@@ -116,22 +116,28 @@ const Left = (props) => {
           <div className="content">
             <Project
               projectUrl={'https://platformhub.com.au/'}
+              // projectUrl={'http://103.20.200.185/~platfo15/'}
               projectName={'Platform Hub'}
               projectDescription={
                 'Universal hub for managing users from multiple cloud platforms'
               }
               githubLink={'https://github.com/Billow-Software/Platform-Hub'}
               webLink={'https://platformhub.com.au/'}
+              // webLink={'http://103.20.200.185/~platfo15/'}
+              projectTechnologies={'React.js, Node.js, Express.js, MongoDB'}
             />
 
             <Project
-              projectUrl={'#'}
+              projectUrl={'https://github-user-finder-web.netlify.com/'}
               projectName={'GitHub User Finder'}
-              projectDescription={'React App to search Github user profiles'}
+              projectDescription={
+                'React app to search Github user profiles using the github api'
+              }
               githubLink={
                 'https://github.com/NyashaNziramasanga/GitHub-User-Finder'
               }
               webLink={'https://github-user-finder-web.netlify.com/'}
+              projectTechnologies={'React.js, Node.js, Express.js, MongoDB'}
             />
 
             <Project
@@ -140,7 +146,7 @@ const Left = (props) => {
               }
               projectName={'Dev Camper API'}
               projectDescription={
-                'Backend node.js and express.js RESTful API for DevCamper application'
+                'Backend RESTful API for DevCamper a list of developer bootcamps and courses'
               }
               githubLink={
                 'https://github.com/NyashaNziramasanga/Dev-Camper-API'
@@ -148,16 +154,18 @@ const Left = (props) => {
               webLink={
                 'https://documenter.getpostman.com/view/9366343/SWTK3ZQF?version=latest'
               }
+              projectTechnologies={'Node.js, Express.js, MongoDB'}
             />
 
             <Project
               projectUrl={'http://www.monashphotographyclub.com/'}
               projectName={'Monash Photography Club'}
               projectDescription={
-                'Wordpress website for a student ran photography club with over 100+ members.'
+                'Website for a student ran photography club with over 100+ members.'
               }
               githubLink={null}
               webLink={'http://www.monashphotographyclub.com/'}
+              projectTechnologies={'Wordpress'}
             />
           </div>
         </div>

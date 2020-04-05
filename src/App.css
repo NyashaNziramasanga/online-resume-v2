@@ -47,6 +47,10 @@ a:hover {
   left: 0;
 }
 
+.project-tech {
+  color: #aaa;
+}
+
 @media only screen and (max-width: 1000px) {
   .left .bg-img {
     height: 500px;
