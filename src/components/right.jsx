@@ -32,7 +32,7 @@ const Left = (props) => {
           <div className="content">
             <div className="skill-category">
               <strong>Languages: &nbsp;</strong>
-              <span>JavaScript (ES6), Java, HTML5, CSS3</span>
+              <span>JavaScript (ES6), TypeScript, Java, HTML5, CSS3</span>
             </div>
             <div className="skill-category">
               <strong>Libraries &amp; Frameworks: &nbsp;</strong>
@@ -154,7 +154,22 @@ const Left = (props) => {
               webLink={
                 'https://documenter.getpostman.com/view/9366343/SWTK3ZQF?version=latest'
               }
-              projectTechnologies={'Node.js, Express.js, MongoDB'}
+              projectTechnologies={'MongoDB,Node.js, Express.js'}
+            />
+
+            <Project
+              projectUrl={
+                'https://github.com/NyashaNziramasanga/document-store-database-demo'
+              }
+              projectName={'Document Store Database Demo'}
+              projectDescription={
+                'RESTful API demonstrating document store databases using MongoDB Atlas'
+              }
+              githubLink={
+                'https://github.com/NyashaNziramasanga/document-store-database-demo'
+              }
+              webLink={null}
+              projectTechnologies={'MongoDB, Node.js, Express.js'}
             />
 
             <Project
