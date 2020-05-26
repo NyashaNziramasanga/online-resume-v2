@@ -1,6 +1,6 @@
 # 📝 Online Resume v2 📝
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/35a6362e-d92f-4859-8748-3854d11b6c4f/deploy-status)](https://app.netlify.com/sites/nyasha-nziramasanga/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/35a6362e-d92f-4859-8748-3854d11b6c4f/deploy-status)](https://app.netlify.com/sites/nyasha-nziramasanga/deploys) [![time tracker](https://wakatime.com/badge/github/NyashaNziramasanga/online-resume-v2.svg)](https://wakatime.com/badge/github/NyashaNziramasanga/online-resume-v2)
 
 Digital version of my resume on [nyashanziramasanga.com](https://nyashanziramasanga.com/)
 
