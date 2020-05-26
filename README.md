@@ -17,12 +17,14 @@
 ## Getting Started
 
 ```bash
-# Start server
+# Start server on http://localhost:3000/
 $ npm i
 $ npm start
 ```
 
 ## Deployment
+
+Currently Netlify handles automated deployment everytime there is a commit on the `master` branch, bash script below can also be used.
 
 ```bash
 # Run build script for deployment
