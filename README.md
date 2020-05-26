@@ -1,8 +1,16 @@
-# 📝 Online Resume v2 📝
+<div align="center">
+    <h1> Online Resume v2 </h1>
+    <p>
+    📝
+      <i>
+      Digital version of my resume on
+      <a href="https://nyashanziramasanga.com/"> nyashanziramasanga.com</a>
+      </i>
+      📝
+    </p> 
+</div>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/35a6362e-d92f-4859-8748-3854d11b6c4f/deploy-status)](https://app.netlify.com/sites/nyasha-nziramasanga/deploys) [![time tracker](https://wakatime.com/badge/github/NyashaNziramasanga/online-resume-v2.svg)](https://wakatime.com/badge/github/NyashaNziramasanga/online-resume-v2)
-
-Digital version of my resume on [nyashanziramasanga.com](https://nyashanziramasanga.com/)
 
 ![online-resume-v2](public/files/online-resume-v2.gif)
 
