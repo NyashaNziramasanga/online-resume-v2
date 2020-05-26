@@ -4,6 +4,8 @@
 
 Digital version of my resume on [nyashanziramasanga.com](https://nyashanziramasanga.com/)
 
+![online-resume-v2](public/files/online-resume-v2.gif)
+
 ## Getting Started
 
 ```bash
