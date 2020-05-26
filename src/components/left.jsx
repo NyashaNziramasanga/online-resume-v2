@@ -29,6 +29,14 @@ const Left = (props) => {
               </a>
               <a
                 className="social-icons"
+                href={props.twitterURL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a
+                className="social-icons"
                 href="mailto:nyashanziramasanga@ymail.com"
                 target="_blank"
                 rel="noopener noreferrer"

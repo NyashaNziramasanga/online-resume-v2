@@ -11,6 +11,7 @@ function App() {
         subtext={'Software Developer based in Adelaide, Australia'}
         jobStatus={''}
         githubURL={'https://github.com/NyashaNziramasanga'}
+        twitterURL={'https://twitter.com/NyashaNziboi'}
         linkedinURL={
           'https://www.linkedin.com/in/nyasha-nash-nziramasanga-446380116/'
         }
