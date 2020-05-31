@@ -1,4 +1,5 @@
 import React from 'react';
+import SocialIcon from './left/socialIcons';
 
 const Left = (props) => {
   return (
@@ -11,38 +12,13 @@ const Left = (props) => {
             <div className="subtext">{props.subtext}</div>
             <div className="jobStatus">{props.jobStatus}</div>
             <div className="social-links">
-              <a
-                className="social-icons"
-                href={props.githubURL}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-github"></i>
-              </a>
-              <a
-                className="social-icons"
-                href={props.linkedinURL}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a
-                className="social-icons"
-                href={props.twitterURL}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a
-                className="social-icons"
-                href="mailto:nyashanziramasanga@ymail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-envelope"></i>
-              </a>
+              <SocialIcon link={props.githubURL} icon={'fab fa-github'} />
+              <SocialIcon link={props.linkedinURL} icon={'fab fa-linkedin'} />
+              <SocialIcon link={props.twitterURL} icon={'fab fa-twitter'} />
+              <SocialIcon
+                link={'mailto:nyashanziramasanga@ymail.com'}
+                icon={'fas fa-envelope'}
+              />
             </div>
           </div>
         </div>
