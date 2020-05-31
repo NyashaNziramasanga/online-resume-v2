@@ -2,6 +2,7 @@ import React from 'react';
 import Education from './right/education';
 import Experience from './right/experience';
 import Project from './right/project';
+import Skills from './right/skillsCategory';
 
 const Left = (props) => {
   return (
@@ -30,21 +31,20 @@ const Left = (props) => {
         <div className="skills">
           <h4>Skills</h4>
           <div className="content">
-            <div className="skill-category">
-              <strong>Languages: &nbsp;</strong>
-              <span>JavaScript (ES6), TypeScript, Java, HTML5, CSS3</span>
-            </div>
-            <div className="skill-category">
-              <strong>Libraries &amp; Frameworks: &nbsp;</strong>
-              <span> React.js, Node.js, MongoDB, Express.js</span>
-            </div>
-            <div className="skill-category">
-              <strong>Tools: &nbsp;</strong>
-              <span>
-                Git &amp; Github, Command Line, Postman, Adobe Creative Cloud,
-                Microsoft Azure, MongoDB
-              </span>
-            </div>
+            <Skills
+              heading={'Languages: '}
+              text={'JavaScript (ES6), TypeScript, Java, HTML5, CSS, SCSS'}
+            />
+            <Skills
+              heading={'Libraries & Frameworks: '}
+              text={'React.js, Node.js, MongoDB, Express.js'}
+            />
+            <Skills
+              heading={'Tools: '}
+              text={
+                'Git, Github, Command Line, Postman, Microsoft Azure, MongoDB, Adobe Creative Cloud'
+              }
+            />
           </div>
         </div>
         <div className="education">
