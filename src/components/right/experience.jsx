@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Experience = (props) => {
+export const Experience = (props) => {
   const tasks = props.tasks.map((task, i) => {
     return <li key={i}>{task}</li>;
   });
@@ -26,4 +26,3 @@ const Experience = (props) => {
     </div>
   );
 };
-export default Experience;

@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialIcon from './left/socialIcons';
+import { SocialIcon } from './left/socialIcons';
 
 const Left = (props) => {
   return (

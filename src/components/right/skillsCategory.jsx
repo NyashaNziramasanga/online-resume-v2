@@ -1,6 +1,6 @@
 import React from 'react';
 
-const skills = (props) => {
+export const Skills = (props) => {
   return (
     <div className="skill-category">
       <strong>{props.heading}</strong>
@@ -8,4 +8,3 @@ const skills = (props) => {
     </div>
   );
 };
-export default skills;

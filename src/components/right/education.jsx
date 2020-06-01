@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Education = (props) => {
+export const Education = (props) => {
   return (
     <div className="edu-item">
       <div className="university">
@@ -21,4 +21,3 @@ const Education = (props) => {
     </div>
   );
 };
-export default Education;

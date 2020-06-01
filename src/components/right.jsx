@@ -1,8 +1,8 @@
 import React from 'react';
-import Education from './right/education';
-import Experience from './right/experience';
-import Project from './right/project';
-import Skills from './right/skillsCategory';
+import { Education } from './right/education';
+import { Experience } from './right/experience';
+import { Project } from './right/project';
+import { Skills } from './right/skillsCategory';
 
 const Left = (props) => {
   return (

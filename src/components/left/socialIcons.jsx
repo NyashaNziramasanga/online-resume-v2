@@ -1,6 +1,6 @@
 import React from 'react';
 
-const socialIcon = (props) => {
+export const SocialIcon = (props) => {
   return (
     <a
       className="social-icons"
@@ -12,5 +12,3 @@ const socialIcon = (props) => {
     </a>
   );
 };
-
-export default socialIcon;
