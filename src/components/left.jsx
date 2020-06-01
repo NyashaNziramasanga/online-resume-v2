@@ -1,7 +1,7 @@
 import React from 'react';
 import { SocialIcon } from './left/socialIcons';
 
-const Left = (props) => {
+export const Left = (props) => {
   return (
     <div>
       <div className="left">
@@ -26,5 +26,3 @@ const Left = (props) => {
     </div>
   );
 };
-
-export default Left;

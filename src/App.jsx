@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Left from './components/left';
-import Right from './components/right';
+import { Left } from './components/left';
+import { Right } from './components/right';
 
-function App() {
+export const App = () => {
   return (
     <div className="app">
       <Left
@@ -22,6 +22,4 @@ function App() {
       />
     </div>
   );
-}
-
-export default App;
+};

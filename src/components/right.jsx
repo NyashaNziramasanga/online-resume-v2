@@ -4,7 +4,7 @@ import { Experience } from './right/experience';
 import { Project } from './right/project';
 import { Skills } from './right/skillsCategory';
 
-const Left = (props) => {
+export const Right = (props) => {
   return (
     <div className="right">
       <div className="right-inner">
@@ -204,5 +204,3 @@ const Left = (props) => {
     </div>
   );
 };
-
-export default Left;
