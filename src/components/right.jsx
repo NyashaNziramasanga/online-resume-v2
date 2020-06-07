@@ -173,6 +173,17 @@ export const Right = (props) => {
             />
 
             <Project
+              projectUrl={'https://tax-calculator.netlify.app/'}
+              projectName={'Tax Calculator'}
+              projectDescription={'Income tax calculator react app'}
+              githubLink={
+                'https://github.com/NyashaNziramasanga/tax-calculator'
+              }
+              webLink={'https://tax-calculator.netlify.app/'}
+              projectTechnologies={'React, Recoil, Tailwindcss'}
+            />
+
+            <Project
               projectUrl={'http://www.monashphotographyclub.com/'}
               projectName={'Monash Photography Club'}
               projectDescription={
