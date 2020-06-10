@@ -4,6 +4,7 @@ import { Experience } from './right/experience';
 import { Project } from './right/project';
 import { Skills } from './right/skillsCategory';
 import { Button } from './UI/Button/Button';
+import { Wakatime } from './UI/Wakatime/Wakatime';
 
 export const Right = (props) => {
   return (
@@ -197,14 +198,7 @@ export const Right = (props) => {
           </div>
         </div>
 
-        <a href="https://wakatime.com">
-          <img
-            className="chart"
-            alt="wakatime-chart"
-            src="https://wakatime.com/share/@Nash/fc0ed910-2ab2-4790-aa68-06eac111b89e.png"
-          />
-        </a>
-
+        <Wakatime />
         <Button URL={props.URL} />
       </div>
     </div>
