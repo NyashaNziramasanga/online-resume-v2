@@ -1,9 +1,10 @@
 import React from 'react';
+import Styles from './SocialIcon.module.scss';
 
 export const SocialIcon = (props) => {
   return (
     <a
-      className="social-icons"
+      className={Styles.socialIcon}
       href={props.link}
       target="_blank"
       rel="noopener noreferrer"

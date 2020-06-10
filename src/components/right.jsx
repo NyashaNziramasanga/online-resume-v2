@@ -3,8 +3,8 @@ import { Education } from './right/education';
 import { Experience } from './right/experience';
 import { Project } from './right/project';
 import { Skills } from './right/skillsCategory';
-import { Button } from './UI/Button/Button';
-import { Wakatime } from './UI/Wakatime/Wakatime';
+import { Button } from './UI/Button/button';
+import { Wakatime } from './UI/Wakatime/wakatime';
 
 export const Right = (props) => {
   return (
