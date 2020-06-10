@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import { Left } from './components/left';
 import { Right } from './components/right';
 
@@ -16,10 +16,7 @@ export const App = () => {
           'https://www.linkedin.com/in/nyasha-nash-nziramasanga-446380116/'
         }
       />
-      <Right
-        intro={''}
-        resumeURL={'/files/resume-of-nyasha-nash-nziramasanga.pdf'}
-      />
+      <Right intro={''} URL={'/files/resume-of-nyasha-nash-nziramasanga.pdf'} />
     </div>
   );
 };

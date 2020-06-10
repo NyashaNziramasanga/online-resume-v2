@@ -3,6 +3,7 @@ import { Education } from './right/education';
 import { Experience } from './right/experience';
 import { Project } from './right/project';
 import { Skills } from './right/skillsCategory';
+import { Button } from './UI/Button/Button';
 
 export const Right = (props) => {
   return (
@@ -204,13 +205,7 @@ export const Right = (props) => {
           />
         </a>
 
-        <a
-          className="resume"
-          href={props.resumeURL}
-          download="resume-of-nyasha-nash-nziramasanga.pdf"
-        >
-          <div className="resume-link">PDF of my full resume</div>
-        </a>
+        <Button URL={props.URL} />
       </div>
     </div>
   );
