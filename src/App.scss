@@ -1,3 +1,8 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --grey: #aaa;
+}
 html,
 body {
   font-family: Helvetica;
@@ -11,11 +16,10 @@ body {
 
 a {
   text-decoration: none;
-}
-
-a:hover {
-  opacity: 0.5;
-  transition: 300ms;
+  :hover {
+    opacity: 0.5;
+    transition: 300ms;
+  }
 }
 
 .left,
@@ -26,7 +30,7 @@ a:hover {
 }
 
 .left {
-  color: #efefef;
+  color: var(--white);
   width: 50%;
   height: 100%;
   float: left;
@@ -48,7 +52,7 @@ a:hover {
 }
 
 .project-tech {
-  color: #aaa;
+  color: var(--grey);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -101,7 +105,7 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  color: #fff;
+  color: var(--white);
   width: 90%;
   margin: 80% auto 0;
 }
@@ -136,7 +140,7 @@ i {
 .left .info .fa {
   margin: 10px;
   font-size: 24px;
-  color: #fff;
+  color: var(--white);
 }
 
 @media screen and (max-width: 1000px) {
@@ -150,43 +154,39 @@ i {
   }
 }
 
-.right {
-  float: right;
-}
-
-.right a {
-  color: #000;
-}
-
 .right h4,
 .right .content {
   display: inline-block;
   vertical-align: top;
 }
 
-.right h4 {
-  width: 20%;
-  margin: 0 0 20px;
-  text-transform: uppercase;
-  font-size: 14px;
-  background-color: #2a54f5;
-  background-image: -webkit-linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
-  background-image: linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.right ul {
-  padding: 0;
-  margin: 0;
-}
-
-.right .content {
-  width: 100%;
-  padding: 0;
-  margin: 0 0 50px;
-  font-weight: 300;
-  line-height: 1.5;
+.right {
+  float: right;
+  a {
+    color: var(--black);
+  }
+  h4 {
+    width: 20%;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #2a54f5;
+    background-image: -webkit-linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+    background-image: linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  .content {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 50px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -266,7 +266,7 @@ i {
 
 .right .education .grad-date {
   text-transform: uppercase;
-  color: #aaa;
+  color: var(--grey);
   font-size: 13px;
   font-weight: 500;
   margin-top: 20px;
@@ -293,7 +293,7 @@ i {
   font-size: 13px;
   font-weight: 500;
   float: right;
-  color: #aaa;
+  color: var(--grey);
   text-transform: uppercase;
   position: relative;
   top: 1px;
