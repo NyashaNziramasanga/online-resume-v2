@@ -5,6 +5,7 @@ import { Project } from './right/project';
 import { Skills } from './right/skillsCategory';
 import { Button } from './UI/Button/button';
 import { Wakatime } from './UI/Wakatime/wakatime';
+import { Paragraph } from './UI/Paragraph/paragraph';
 
 export const Right = (props) => {
   return (
@@ -13,17 +14,16 @@ export const Right = (props) => {
         <div className="introduction">
           <h4>Intro</h4>
           <div className="content">
-            <p className="intro-p">
-              Software Developer developing web applications using Javascript
-              Frameworks, currently specialising in MERN Stack (MongoDB,
-              Express.js, React.js and Node.js).{' '}
-            </p>
-            <p className="intro-p">
-              I enjoy developing and maintaining fullstack software
-              applications, and feel right at home as a Software Developer.
-              I&#39;m experienced in developing and designing products for the
-              web.
-            </p>
+            <Paragraph
+              content={
+                ' Software Developer developing web applications using Javascript Frameworks, currently specialising in MERN Stack (MongoDB, Express.js, React.js and Node.js).'
+              }
+            />
+            <Paragraph
+              content={
+                'I enjoy developing and maintaining fullstack software applications, and feel right at home as a Software Developer. I am experienced in developing and designing products for the web.'
+              }
+            />
             <span className="intro-p job-pls">
               I&#39;m currently studying a Masters of Computer Science at
               Flinders University Adelaide which I will complete in Dec 2021.
