@@ -39,4 +39,5 @@ $ netlify deploy
 
 - [React.js](https://reactjs.org/)
 - [Wakatime Chart](https://wakatime.com/)
+- [Sass](https://sass-lang.com/)
 - [Netlify](https://www.netlify.com/)
