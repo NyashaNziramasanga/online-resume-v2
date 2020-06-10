@@ -1,14 +1,27 @@
 import React from 'react';
 import { SocialIcon } from './UI/SocialIcon/socialIcon';
+import { fadeIn, fadeInDown } from 'react-animations';
+import styled, { keyframes } from 'styled-components';
 
 export const Left = (props) => {
+  const FadeIn = styled.div`
+    animation: 5s ${keyframes`${fadeIn}`};
+  `;
+  const FadeInDown = styled.div`
+    animation: 3s ${keyframes`${fadeInDown}`};
+  `;
+
   return (
     <div>
       <div className="left">
-        <div className="bg-img"></div>
+        <FadeIn>
+          <div className="bg-img" />
+        </FadeIn>
         <div className="left-inner">
           <div className="info">
-            <h2 className="name">{props.name}</h2>
+            <FadeInDown>
+              <h2 className="name">{props.name}</h2>
+            </FadeInDown>
             <div className="subtext">{props.subtext}</div>
             <div className="jobStatus">{props.jobStatus}</div>
             <div className="social-links">
