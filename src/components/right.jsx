@@ -1,11 +1,11 @@
 import React from 'react';
+import { Button } from './UI/Button/button';
 import { Education } from './right/education';
 import { Experience } from './right/experience';
+import { Paragraph } from './UI/Paragraph/paragraph';
 import { Project } from './right/project';
 import { Skills } from './right/skillsCategory';
-import { Button } from './UI/Button/button';
 import { Wakatime } from './UI/Wakatime/wakatime';
-import { Paragraph } from './UI/Paragraph/paragraph';
 
 export const Right = (props) => {
   return (
@@ -197,7 +197,6 @@ export const Right = (props) => {
             />
           </div>
         </div>
-
         <Wakatime />
         <Button URL={props.URL} />
       </div>
