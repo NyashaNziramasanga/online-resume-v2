@@ -4,7 +4,7 @@
     📝
       <i>
       Digital version of my resume on
-      <a href="https://nyashanziramasanga.com/"> nyashanziramasanga.com</a>
+      <a href="https://nyasha-nziramasanga-v2.netlify.app/"> nyasha-nziramasanga-v2.netlify.app</a>
       </i>
       📝
     </p> 
